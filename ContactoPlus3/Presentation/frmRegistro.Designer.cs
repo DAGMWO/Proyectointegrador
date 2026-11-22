@@ -168,58 +168,6 @@
             pnlPerLocalidad.SuspendLayout();
             pnlPerTelefono.SuspendLayout();
             SuspendLayout();
-
-            // 
-            // Franjas decorativas superiores
-            // 
-            pnlFranja1.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja1.Location = new Point(225, 12);
-            pnlFranja1.Name = "pnlFranja1";
-            pnlFranja1.Size = new Size(42, 8);
-            pnlFranja1.TabIndex = 21;
-
-            pnlFranja2.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja2.Location = new Point(282, 12);
-            pnlFranja2.Name = "pnlFranja2";
-            pnlFranja2.Size = new Size(42, 8);
-            pnlFranja2.TabIndex = 22;
-
-            pnlFranja3.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja3.Location = new Point(339, 12);
-            pnlFranja3.Name = "pnlFranja3";
-            pnlFranja3.Size = new Size(42, 8);
-            pnlFranja3.TabIndex = 23;
-
-            pnlFranja4.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja4.Location = new Point(396, 12);
-            pnlFranja4.Name = "pnlFranja4";
-            pnlFranja4.Size = new Size(42, 8);
-            pnlFranja4.TabIndex = 24;
-
-            pnlFranja5.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja5.Location = new Point(453, 12);
-            pnlFranja5.Name = "pnlFranja5";
-            pnlFranja5.Size = new Size(42, 8);
-            pnlFranja5.TabIndex = 25;
-
-            pnlFranja6.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja6.Location = new Point(510, 12);
-            pnlFranja6.Name = "pnlFranja6";
-            pnlFranja6.Size = new Size(42, 8);
-            pnlFranja6.TabIndex = 26;
-
-            pnlFranja7.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja7.Location = new Point(567, 12);
-            pnlFranja7.Name = "pnlFranja7";
-            pnlFranja7.Size = new Size(42, 8);
-            pnlFranja7.TabIndex = 27;
-
-            pnlFranja8.BackColor = Color.FromArgb(115, 165, 75);
-            pnlFranja8.Location = new Point(624, 12);
-            pnlFranja8.Name = "pnlFranja8";
-            pnlFranja8.Size = new Size(42, 8);
-            pnlFranja8.TabIndex = 28;
-
             // 
             // lblTitulo
             // 
@@ -228,10 +176,73 @@
             lblTitulo.ForeColor = Color.FromArgb(0, 255, 25);
             lblTitulo.Location = new Point(65, 65);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(358, 50);
+            lblTitulo.Size = new Size(348, 51);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "ANGUIANOS GYM";
-
+            // 
+            // pnlFranja1
+            // 
+            pnlFranja1.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja1.Location = new Point(225, 12);
+            pnlFranja1.Name = "pnlFranja1";
+            pnlFranja1.Size = new Size(42, 8);
+            pnlFranja1.TabIndex = 21;
+            // 
+            // pnlFranja2
+            // 
+            pnlFranja2.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja2.Location = new Point(282, 12);
+            pnlFranja2.Name = "pnlFranja2";
+            pnlFranja2.Size = new Size(42, 8);
+            pnlFranja2.TabIndex = 22;
+            // 
+            // pnlFranja3
+            // 
+            pnlFranja3.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja3.Location = new Point(339, 12);
+            pnlFranja3.Name = "pnlFranja3";
+            pnlFranja3.Size = new Size(42, 8);
+            pnlFranja3.TabIndex = 23;
+            // 
+            // pnlFranja4
+            // 
+            pnlFranja4.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja4.Location = new Point(396, 12);
+            pnlFranja4.Name = "pnlFranja4";
+            pnlFranja4.Size = new Size(42, 8);
+            pnlFranja4.TabIndex = 24;
+            // 
+            // pnlFranja5
+            // 
+            pnlFranja5.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja5.Location = new Point(453, 12);
+            pnlFranja5.Name = "pnlFranja5";
+            pnlFranja5.Size = new Size(42, 8);
+            pnlFranja5.TabIndex = 25;
+            // 
+            // pnlFranja6
+            // 
+            pnlFranja6.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja6.Location = new Point(510, 12);
+            pnlFranja6.Name = "pnlFranja6";
+            pnlFranja6.Size = new Size(42, 8);
+            pnlFranja6.TabIndex = 26;
+            // 
+            // pnlFranja7
+            // 
+            pnlFranja7.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja7.Location = new Point(567, 12);
+            pnlFranja7.Name = "pnlFranja7";
+            pnlFranja7.Size = new Size(42, 8);
+            pnlFranja7.TabIndex = 27;
+            // 
+            // pnlFranja8
+            // 
+            pnlFranja8.BackColor = Color.FromArgb(115, 165, 75);
+            pnlFranja8.Location = new Point(624, 12);
+            pnlFranja8.Name = "pnlFranja8";
+            pnlFranja8.Size = new Size(42, 8);
+            pnlFranja8.TabIndex = 28;
             // 
             // picLogoGym
             // 
@@ -242,7 +253,6 @@
             picLogoGym.SizeMode = PictureBoxSizeMode.Zoom;
             picLogoGym.TabIndex = 1;
             picLogoGym.TabStop = false;
-
             // 
             // lblColNombre
             // 
@@ -255,7 +265,6 @@
             lblColNombre.TabIndex = 29;
             lblColNombre.Text = "NOMBRE";
             lblColNombre.TextAlign = ContentAlignment.MiddleCenter;
-
             // 
             // lblColApellido
             // 
@@ -268,7 +277,6 @@
             lblColApellido.TabIndex = 30;
             lblColApellido.Text = "APELLIDO";
             lblColApellido.TextAlign = ContentAlignment.MiddleCenter;
-
             // 
             // lblColLocalidad
             // 
@@ -281,7 +289,6 @@
             lblColLocalidad.TabIndex = 31;
             lblColLocalidad.Text = "LOCALIDAD";
             lblColLocalidad.TextAlign = ContentAlignment.MiddleCenter;
-
             // 
             // lblColTelefono
             // 
@@ -294,55 +301,62 @@
             lblColTelefono.TabIndex = 32;
             lblColTelefono.Text = "TELEFONO";
             lblColTelefono.TextAlign = ContentAlignment.MiddleCenter;
-
             // 
-            // Etiquetas de filas (Categorías)
+            // lblMensualidad
             // 
             lblMensualidad.AutoSize = true;
             lblMensualidad.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             lblMensualidad.ForeColor = Color.White;
             lblMensualidad.Location = new Point(32, 200);
             lblMensualidad.Name = "lblMensualidad";
-            lblMensualidad.Size = new Size(123, 20);
+            lblMensualidad.Size = new Size(119, 20);
             lblMensualidad.TabIndex = 33;
             lblMensualidad.Text = "MENSUALIDAD";
-
+            // 
+            // lblAnualidad
+            // 
             lblAnualidad.AutoSize = true;
             lblAnualidad.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             lblAnualidad.ForeColor = Color.White;
             lblAnualidad.Location = new Point(28, 305);
             lblAnualidad.Name = "lblAnualidad";
-            lblAnualidad.Size = new Size(99, 20);
+            lblAnualidad.Size = new Size(100, 20);
             lblAnualidad.TabIndex = 34;
             lblAnualidad.Text = "ANUALIDAD";
-
+            // 
+            // lblSemanal
+            // 
             lblSemanal.AutoSize = true;
             lblSemanal.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             lblSemanal.ForeColor = Color.White;
             lblSemanal.Location = new Point(35, 390);
             lblSemanal.Name = "lblSemanal";
-            lblSemanal.Size = new Size(83, 20);
+            lblSemanal.Size = new Size(81, 20);
             lblSemanal.TabIndex = 35;
             lblSemanal.Text = "SEMANAL";
-
+            // 
+            // lblPersonalizado
+            // 
             lblPersonalizado.AutoSize = true;
             lblPersonalizado.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             lblPersonalizado.ForeColor = Color.White;
             lblPersonalizado.Location = new Point(25, 485);
             lblPersonalizado.Name = "lblPersonalizado";
-            lblPersonalizado.Size = new Size(134, 20);
+            lblPersonalizado.Size = new Size(133, 20);
             lblPersonalizado.TabIndex = 36;
             lblPersonalizado.Text = "PERSONALIZADO";
-
-            // =========================================================================
-            // FILA 1: MENSUALIDAD
-            // =========================================================================
+            // 
+            // pnlMenNombre
+            // 
             pnlMenNombre.BackColor = Color.FromArgb(215, 215, 222);
             pnlMenNombre.Controls.Add(txtMenNombre);
             pnlMenNombre.Location = new Point(212, 192);
             pnlMenNombre.Name = "pnlMenNombre";
             pnlMenNombre.Size = new Size(156, 34);
             pnlMenNombre.TabIndex = 37;
+            // 
+            // txtMenNombre
+            // 
             txtMenNombre.BackColor = Color.FromArgb(215, 215, 222);
             txtMenNombre.BorderStyle = BorderStyle.None;
             txtMenNombre.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -351,13 +365,19 @@
             txtMenNombre.Size = new Size(144, 19);
             txtMenNombre.TabIndex = 2;
             txtMenNombre.TextAlign = HorizontalAlignment.Center;
-
+            txtMenNombre.TextChanged += txtMenNombre_TextChanged;
+            // 
+            // pnlMenApellido
+            // 
             pnlMenApellido.BackColor = Color.FromArgb(215, 215, 222);
             pnlMenApellido.Controls.Add(txtMenApellido);
             pnlMenApellido.Location = new Point(390, 192);
             pnlMenApellido.Name = "pnlMenApellido";
             pnlMenApellido.Size = new Size(156, 34);
             pnlMenApellido.TabIndex = 38;
+            // 
+            // txtMenApellido
+            // 
             txtMenApellido.BackColor = Color.FromArgb(215, 215, 222);
             txtMenApellido.BorderStyle = BorderStyle.None;
             txtMenApellido.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -366,13 +386,18 @@
             txtMenApellido.Size = new Size(144, 19);
             txtMenApellido.TabIndex = 3;
             txtMenApellido.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlMenLocalidad
+            // 
             pnlMenLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             pnlMenLocalidad.Controls.Add(txtMenLocalidad);
             pnlMenLocalidad.Location = new Point(570, 192);
             pnlMenLocalidad.Name = "pnlMenLocalidad";
             pnlMenLocalidad.Size = new Size(156, 34);
             pnlMenLocalidad.TabIndex = 39;
+            // 
+            // txtMenLocalidad
+            // 
             txtMenLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             txtMenLocalidad.BorderStyle = BorderStyle.None;
             txtMenLocalidad.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -381,13 +406,18 @@
             txtMenLocalidad.Size = new Size(144, 19);
             txtMenLocalidad.TabIndex = 4;
             txtMenLocalidad.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlMenTelefono
+            // 
             pnlMenTelefono.BackColor = Color.FromArgb(215, 215, 222);
             pnlMenTelefono.Controls.Add(txtMenTelefono);
             pnlMenTelefono.Location = new Point(750, 192);
             pnlMenTelefono.Name = "pnlMenTelefono";
             pnlMenTelefono.Size = new Size(156, 34);
             pnlMenTelefono.TabIndex = 40;
+            // 
+            // txtMenTelefono
+            // 
             txtMenTelefono.BackColor = Color.FromArgb(215, 215, 222);
             txtMenTelefono.BorderStyle = BorderStyle.None;
             txtMenTelefono.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -396,16 +426,18 @@
             txtMenTelefono.Size = new Size(144, 19);
             txtMenTelefono.TabIndex = 5;
             txtMenTelefono.TextAlign = HorizontalAlignment.Center;
-
-            // =========================================================================
-            // FILA 2: ANUALIDAD
-            // =========================================================================
+            // 
+            // pnlAnuNombre
+            // 
             pnlAnuNombre.BackColor = Color.FromArgb(215, 215, 222);
             pnlAnuNombre.Controls.Add(txtAnuNombre);
             pnlAnuNombre.Location = new Point(212, 296);
             pnlAnuNombre.Name = "pnlAnuNombre";
             pnlAnuNombre.Size = new Size(156, 34);
             pnlAnuNombre.TabIndex = 41;
+            // 
+            // txtAnuNombre
+            // 
             txtAnuNombre.BackColor = Color.FromArgb(215, 215, 222);
             txtAnuNombre.BorderStyle = BorderStyle.None;
             txtAnuNombre.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -414,13 +446,18 @@
             txtAnuNombre.Size = new Size(144, 19);
             txtAnuNombre.TabIndex = 6;
             txtAnuNombre.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlAnuApellido
+            // 
             pnlAnuApellido.BackColor = Color.FromArgb(215, 215, 222);
             pnlAnuApellido.Controls.Add(txtAnuApellido);
             pnlAnuApellido.Location = new Point(390, 296);
             pnlAnuApellido.Name = "pnlAnuApellido";
             pnlAnuApellido.Size = new Size(156, 34);
             pnlAnuApellido.TabIndex = 42;
+            // 
+            // txtAnuApellido
+            // 
             txtAnuApellido.BackColor = Color.FromArgb(215, 215, 222);
             txtAnuApellido.BorderStyle = BorderStyle.None;
             txtAnuApellido.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -429,13 +466,18 @@
             txtAnuApellido.Size = new Size(144, 19);
             txtAnuApellido.TabIndex = 7;
             txtAnuApellido.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlAnuLocalidad
+            // 
             pnlAnuLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             pnlAnuLocalidad.Controls.Add(txtAnuLocalidad);
             pnlAnuLocalidad.Location = new Point(570, 296);
             pnlAnuLocalidad.Name = "pnlAnuLocalidad";
             pnlAnuLocalidad.Size = new Size(156, 34);
             pnlAnuLocalidad.TabIndex = 43;
+            // 
+            // txtAnuLocalidad
+            // 
             txtAnuLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             txtAnuLocalidad.BorderStyle = BorderStyle.None;
             txtAnuLocalidad.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -444,13 +486,18 @@
             txtAnuLocalidad.Size = new Size(144, 19);
             txtAnuLocalidad.TabIndex = 8;
             txtAnuLocalidad.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlAnuTelefono
+            // 
             pnlAnuTelefono.BackColor = Color.FromArgb(215, 215, 222);
             pnlAnuTelefono.Controls.Add(txtAnuTelefono);
             pnlAnuTelefono.Location = new Point(750, 296);
             pnlAnuTelefono.Name = "pnlAnuTelefono";
             pnlAnuTelefono.Size = new Size(156, 34);
             pnlAnuTelefono.TabIndex = 44;
+            // 
+            // txtAnuTelefono
+            // 
             txtAnuTelefono.BackColor = Color.FromArgb(215, 215, 222);
             txtAnuTelefono.BorderStyle = BorderStyle.None;
             txtAnuTelefono.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -459,16 +506,18 @@
             txtAnuTelefono.Size = new Size(144, 19);
             txtAnuTelefono.TabIndex = 9;
             txtAnuTelefono.TextAlign = HorizontalAlignment.Center;
-
-            // =========================================================================
-            // FILA 3: SEMANAL
-            // =========================================================================
+            // 
+            // pnlSemNombre
+            // 
             pnlSemNombre.BackColor = Color.FromArgb(215, 215, 222);
             pnlSemNombre.Controls.Add(txtSemNombre);
             pnlSemNombre.Location = new Point(212, 380);
             pnlSemNombre.Name = "pnlSemNombre";
             pnlSemNombre.Size = new Size(156, 34);
             pnlSemNombre.TabIndex = 45;
+            // 
+            // txtSemNombre
+            // 
             txtSemNombre.BackColor = Color.FromArgb(215, 215, 222);
             txtSemNombre.BorderStyle = BorderStyle.None;
             txtSemNombre.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -477,13 +526,18 @@
             txtSemNombre.Size = new Size(144, 19);
             txtSemNombre.TabIndex = 10;
             txtSemNombre.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlSemApellido
+            // 
             pnlSemApellido.BackColor = Color.FromArgb(215, 215, 222);
             pnlSemApellido.Controls.Add(txtSemApellido);
             pnlSemApellido.Location = new Point(390, 380);
             pnlSemApellido.Name = "pnlSemApellido";
             pnlSemApellido.Size = new Size(156, 34);
             pnlSemApellido.TabIndex = 46;
+            // 
+            // txtSemApellido
+            // 
             txtSemApellido.BackColor = Color.FromArgb(215, 215, 222);
             txtSemApellido.BorderStyle = BorderStyle.None;
             txtSemApellido.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -492,13 +546,18 @@
             txtSemApellido.Size = new Size(144, 19);
             txtSemApellido.TabIndex = 11;
             txtSemApellido.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlSemLocalidad
+            // 
             pnlSemLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             pnlSemLocalidad.Controls.Add(txtSemLocalidad);
             pnlSemLocalidad.Location = new Point(570, 380);
             pnlSemLocalidad.Name = "pnlSemLocalidad";
             pnlSemLocalidad.Size = new Size(156, 34);
             pnlSemLocalidad.TabIndex = 47;
+            // 
+            // txtSemLocalidad
+            // 
             txtSemLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             txtSemLocalidad.BorderStyle = BorderStyle.None;
             txtSemLocalidad.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -507,13 +566,18 @@
             txtSemLocalidad.Size = new Size(144, 19);
             txtSemLocalidad.TabIndex = 12;
             txtSemLocalidad.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlSemTelefono
+            // 
             pnlSemTelefono.BackColor = Color.FromArgb(215, 215, 222);
             pnlSemTelefono.Controls.Add(txtSemTelefono);
             pnlSemTelefono.Location = new Point(750, 380);
             pnlSemTelefono.Name = "pnlSemTelefono";
             pnlSemTelefono.Size = new Size(156, 34);
             pnlSemTelefono.TabIndex = 48;
+            // 
+            // txtSemTelefono
+            // 
             txtSemTelefono.BackColor = Color.FromArgb(215, 215, 222);
             txtSemTelefono.BorderStyle = BorderStyle.None;
             txtSemTelefono.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -522,16 +586,18 @@
             txtSemTelefono.Size = new Size(144, 19);
             txtSemTelefono.TabIndex = 13;
             txtSemTelefono.TextAlign = HorizontalAlignment.Center;
-
-            // =========================================================================
-            // FILA 4: PERSONALIZADO
-            // =========================================================================
+            // 
+            // pnlPerNombre
+            // 
             pnlPerNombre.BackColor = Color.FromArgb(215, 215, 222);
             pnlPerNombre.Controls.Add(txtPerNombre);
             pnlPerNombre.Location = new Point(212, 476);
             pnlPerNombre.Name = "pnlPerNombre";
             pnlPerNombre.Size = new Size(156, 34);
             pnlPerNombre.TabIndex = 49;
+            // 
+            // txtPerNombre
+            // 
             txtPerNombre.BackColor = Color.FromArgb(215, 215, 222);
             txtPerNombre.BorderStyle = BorderStyle.None;
             txtPerNombre.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -540,13 +606,18 @@
             txtPerNombre.Size = new Size(144, 19);
             txtPerNombre.TabIndex = 14;
             txtPerNombre.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlPerApellido
+            // 
             pnlPerApellido.BackColor = Color.FromArgb(215, 215, 222);
             pnlPerApellido.Controls.Add(txtPerApellido);
             pnlPerApellido.Location = new Point(390, 476);
             pnlPerApellido.Name = "pnlPerApellido";
             pnlPerApellido.Size = new Size(156, 34);
             pnlPerApellido.TabIndex = 50;
+            // 
+            // txtPerApellido
+            // 
             txtPerApellido.BackColor = Color.FromArgb(215, 215, 222);
             txtPerApellido.BorderStyle = BorderStyle.None;
             txtPerApellido.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -555,13 +626,18 @@
             txtPerApellido.Size = new Size(144, 19);
             txtPerApellido.TabIndex = 15;
             txtPerApellido.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlPerLocalidad
+            // 
             pnlPerLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             pnlPerLocalidad.Controls.Add(txtPerLocalidad);
             pnlPerLocalidad.Location = new Point(570, 476);
             pnlPerLocalidad.Name = "pnlPerLocalidad";
             pnlPerLocalidad.Size = new Size(156, 34);
             pnlPerLocalidad.TabIndex = 51;
+            // 
+            // txtPerLocalidad
+            // 
             txtPerLocalidad.BackColor = Color.FromArgb(215, 215, 222);
             txtPerLocalidad.BorderStyle = BorderStyle.None;
             txtPerLocalidad.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -570,13 +646,18 @@
             txtPerLocalidad.Size = new Size(144, 19);
             txtPerLocalidad.TabIndex = 16;
             txtPerLocalidad.TextAlign = HorizontalAlignment.Center;
-
+            // 
+            // pnlPerTelefono
+            // 
             pnlPerTelefono.BackColor = Color.FromArgb(215, 215, 222);
             pnlPerTelefono.Controls.Add(txtPerTelefono);
             pnlPerTelefono.Location = new Point(750, 476);
             pnlPerTelefono.Name = "pnlPerTelefono";
             pnlPerTelefono.Size = new Size(156, 34);
             pnlPerTelefono.TabIndex = 52;
+            // 
+            // txtPerTelefono
+            // 
             txtPerTelefono.BackColor = Color.FromArgb(215, 215, 222);
             txtPerTelefono.BorderStyle = BorderStyle.None;
             txtPerTelefono.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
@@ -585,14 +666,12 @@
             txtPerTelefono.Size = new Size(144, 19);
             txtPerTelefono.TabIndex = 17;
             txtPerTelefono.TextAlign = HorizontalAlignment.Center;
-
             // 
             // btnCancelar
             // 
             btnCancelar.BackColor = Color.FromArgb(210, 35, 35);
             btnCancelar.Cursor = Cursors.Hand;
             btnCancelar.FlatAppearance.BorderColor = Color.White;
-            btnCancelar.FlatAppearance.BorderSize = 1;
             btnCancelar.FlatStyle = FlatStyle.Flat;
             btnCancelar.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnCancelar.ForeColor = Color.White;
@@ -602,14 +681,13 @@
             btnCancelar.TabIndex = 18;
             btnCancelar.Text = "✕";
             btnCancelar.UseVisualStyleBackColor = false;
-
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnAceptar
             // 
             btnAceptar.BackColor = Color.FromArgb(210, 35, 35);
             btnAceptar.Cursor = Cursors.Hand;
             btnAceptar.FlatAppearance.BorderColor = Color.White;
-            btnAceptar.FlatAppearance.BorderSize = 1;
             btnAceptar.FlatStyle = FlatStyle.Flat;
             btnAceptar.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnAceptar.ForeColor = Color.White;
@@ -619,7 +697,7 @@
             btnAceptar.TabIndex = 19;
             btnAceptar.Text = "✓";
             btnAceptar.UseVisualStyleBackColor = false;
-
+            btnAceptar.Click += btnAceptar_Click;
             // 
             // btnSalir
             // 
@@ -636,7 +714,7 @@
             btnSalir.TabIndex = 20;
             btnSalir.Text = "SALIR";
             btnSalir.UseVisualStyleBackColor = false;
-
+            btnSalir.Click += btnSalir_Click;
             // 
             // frmRegistro
             // 
@@ -686,7 +764,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmRegistro";
             Load += frmRegistro_Load;
-
             ((System.ComponentModel.ISupportInitialize)picLogoGym).EndInit();
             pnlMenNombre.ResumeLayout(false);
             pnlMenNombre.PerformLayout();

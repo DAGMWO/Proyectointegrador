@@ -21,5 +21,39 @@ namespace ContactosPlus.Presentation
         {
 
         }
+
+        private void txtMenNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (txtMenNombre.Text.Length > 0)
+            {
+                if (txtMenApellido.Text.Length > 0)
+                {
+                    //guardar usando programacion
+                }
+                else
+                {
+                    MessageBox.Show("Escribe tu apellido");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Escribe tu nombre");
+            }
+        }
     }
 }
